@@ -55,6 +55,6 @@ if (!isMobile) {
     goToSlide(0);
 } else {
     dotsContainer.style.display = "none";
-    slidesContainer.style.transform = "none";
+    slidesContainer.style.transform = "none"; 
 }
 
