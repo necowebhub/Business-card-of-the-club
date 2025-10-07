@@ -44,7 +44,7 @@ if (!isMobile) {
         if (e.deltaY > 0) nextSlide();
         else prevSlide();
 
-        setTimeout(() => (isScrolling = false), 800);
+        setTimeout(() => (isScrolling = false), 1600);
     });
 
     window.addEventListener("keydown", (e) => {
@@ -57,4 +57,5 @@ if (!isMobile) {
     dotsContainer.style.display = "none";
     slidesContainer.style.transform = "none"; 
 }
+
 
